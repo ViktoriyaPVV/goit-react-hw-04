@@ -1,0 +1,18 @@
+.galleryList {
+  padding: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.galleryItem {
+  background-color: #3d3d3d;
+  border-radius: 13px;
+  width: calc((100%-60px) / 3);
+}
+
+.galleryItem:hover {
+  cursor: zoom-in;
+}
